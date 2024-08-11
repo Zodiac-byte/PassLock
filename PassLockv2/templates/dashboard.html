@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            background-color: #e0f7fa;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 400px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .logo {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #0277bd;
+        }
+        a {
+            display: block;
+            padding: 10px;
+            margin: 10px 0;
+            text-decoration: none;
+            background-color: #0277bd;
+            color: white;
+            border-radius: 5px;
+            font-size: 1em;
+            text-align: center;
+        }
+        a:hover {
+            background-color: #01579b;
+        }
+        .footer-text {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 0.8em;
+            color: #0277bd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">Password Manager</div>
+        <h1>Dashboard</h1>
+        <a href="/add_password">Add Password</a>
+        <a href="/view_passwords">View Passwords</a>
+        <div class="footer-text">Sparsh Kohli</div>
+    </div>
+</body>
+</html>
